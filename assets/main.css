@@ -1,3 +1,51 @@
+body{
+    font-family: "Barlow", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: none;
+    color: #54595F;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #3B3830;
+
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+h4{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 400;
+
+
+
+}
+
+p{
+    margin-bottom: 1.75em;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+
+}
+
+ul li{
+    line-height:45px;
+}
+
+a{
+    color: #808285;
+}
+
 .secondary-nav {
     list-style: none;
     padding: 15px;
@@ -44,4 +92,43 @@ a:hover{
 .menu{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     padding: 1rem 0rem;
+    background-color: white;
+}
+
+.footer_logo img{
+    width: 200px;
+    max-width: 86%;
+}
+
+.footer_logo{
+    height: 100%;
+    margin-bottom: 20px;
+    border: 2px solid red;
+}
+
+.read_more{
+    color: #DF002D;
+}
+
+.read_more:hover{
+    color: #cf2e2e;
+}
+
+.footer_secondary{
+    background-color: #242424;
+    padding: 10px;
+}
+
+.hero_banner{
+    height: 100vh;
+    background-size:cover;
+    background: url("images/hero.jpeg") no-repeat;
+    z-index: -1;
+
+}
+
+.menu_container{
+    position: absolute;
+    top:0;
+    width:100%;
 }
