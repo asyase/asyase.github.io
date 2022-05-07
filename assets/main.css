@@ -9,13 +9,18 @@ body{
     color: #54595F;
 
 }
-
+.p-4{
+    width: 111%;
+    margin-left: -65px;
+}
 h1,h2,h3,h4,h5,h6{
     color: #3B3830;
     font-family: 'Francois One', sans-serif;
 
 }
-
+.col-4 img:hover{
+    scale: 1.2;
+}
 h3{
     font-size: 30px;
     font-weight: 500;
@@ -127,6 +132,45 @@ a:hover{
     border-radius: 50%;
     width: 50px;
     height: 50px;
+    text-align: center;
+}
+
+.fa{
+    background-color: #df002d;
+    color: white;
+    border-radius: 50px;
+}
+
+.fa-facebook{
+    width: 50px;
+    height: 50px;
+    padding: 0.6em;
+}
+.fa-instagram{
+    width: 50px;
+    height: 50px;
+    padding: 0.6em;
+}
+
+.taaskasutus{
+    transform: scale(0.06);
+    margin-top: -825px;
+    margin-left: -910px;
+    padding: 8px 12px;
+    position: absolute;
+}
+
+.taaskasutus:hover{
+    scale: 1.1;
+    transition: 0.8s ease-in-out;
+
+}
+.fa:hover{
+    background-color: #a10526;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    scale: 1.2;
 }
 
 
